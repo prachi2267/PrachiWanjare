@@ -1,0 +1,123 @@
+<!--!DOCTYPE html
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>Form</title>
+    </head>
+<body>
+    <form>
+        <input min="7" max="20" type ="text" required name ="Username" placeholder="Your name"/>
+        <input type ="email" required name ="Email" placeholder="Email Address"/>
+        <input max="8"type ="password" required name ="Password" placeholder="Password"/>
+        <input min="15" maxlength="95"type ="number" required name ="age" placeholder="age"/>
+         <input type ="color" name="color"/>
+         <input type ="date" name="date"/>
+         <input type ="range" name="price" min="300"/>
+        <button>Submit</button>
+    </form>
+</body>
+</html-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Application Form:</legend>
+        <label>First Name:</label>
+        <input
+          minlength="10"
+          type="first name"
+          value="username"
+          placeholder="Enter your firstname"
+        /><br><br>
+        <label>Last Name:</label>
+        <input
+          type="last name"
+          value="username"
+          placeholder="Enter your lastname"
+        /><br><br>
+        <label>Date of birth:</label>
+        <input type="datetime-local" name="username" /><br><br>
+        <label>Age:</label>
+        <input type="number" value="userage" /><br><br>
+        <label>Gender:</label>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>other</option>
+        </select><br><br>
+        <label>state:</label>
+        <select>
+          <option>Madhya pradresh</option>
+          <option>Andrapradesh pradresh</option>
+          <option>chattisgarh</option>
+          <option>uttar pradesh</option>
+          <option>uttarakhand</option>
+          <option>nepal</option>
+        </select><br><br>
+        <label>City:</label>
+        <select>
+          <option>Bhopal</option>
+          <option>Jabalpur</option>
+          <option>Indore</option>
+          <option>bhutan</option>
+          <option>kahtmandu</option>
+          <option>bilaspur</option>
+          <option>bihar</option>
+        </select>
+        <select>
+          Bhopal
+        </select><br><br>
+        <label>Email Address:</label>
+        <input
+          type="email"
+          required
+          name="useremail"
+          placeholder="enter email address"
+        /><br><br>
+        <label>Position Availabel:</label>
+        <label>Junior Development</label>
+        <input type="radio" name="gender" />
+        <label>Mid-level Development</label>
+        <input type="radio" name="gender" />
+        <label>Senior Development</label>
+        <input type="radio" name="gender" /><br><br>
+        <label>Programming Language:</label>
+        <input type="checkbox" />
+        <label>java</label>
+        <input type="checkbox" />
+        <label>javascript</label>
+        <input type="checkbox" />
+        <label>python</label><br><br>
+
+        <label>Password:</label>
+        <input
+          minlength="8"
+          type="password"
+          required
+          name="userpassword"
+          placeholder="enter your password"
+        /><br><br>
+        <label>Confirm Password:</label>
+        <input
+          minlength="8"
+          type="Confirm password"
+          required
+          name="user Confirm password"
+          placeholder="enter your Confirm password"
+        /><br><br>
+
+        <button>Submit</button><br><br>
+        <button>Reset</button>
+      </fieldset>
+    </form>
+    
+  </body>
+</html>
